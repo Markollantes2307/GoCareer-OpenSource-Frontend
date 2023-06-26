@@ -1,0 +1,46 @@
+<mat-toolbar>
+    <button mat-icon-button routerLink="/options">
+        <mat-icon class="toolicon">menu</mat-icon>
+    </button>
+    <a href="/home">
+        <h1>
+            <span>GO-CAREER</span>
+        </h1>
+    </a>
+    <button mat-icon-button routerLink="/user">
+        <mat-icon class="toolicon">person</mat-icon>
+    </button>
+</mat-toolbar>
+<div class="questions">
+    <mat-card class="exquestion">
+        <mat-card-content>
+            <h2>1. ¿Te gustaría trabajar en una oficina tras graduarte?</h2>
+            <mat-checkbox class="ex">Me interesa</mat-checkbox>
+            <mat-checkbox class="ex">Supongo que sí</mat-checkbox>
+            <mat-checkbox class="ex">Prefiero trabajar en exteriores</mat-checkbox>
+            <mat-checkbox class="ex">No me interesa</mat-checkbox>
+        </mat-card-content>
+    </mat-card>
+    <mat-card class="exquestion">
+        <mat-card-content>
+            <h2>2. ¿Prefieres trabajar en solitario o en equipo?</h2>
+            <mat-checkbox class="ex">En solitario</mat-checkbox>
+            <mat-checkbox class="ex">En equipos pequeños</mat-checkbox>
+            <mat-checkbox class="ex">En grandes equipos</mat-checkbox>
+            <mat-checkbox class="ex">No me importa</mat-checkbox>
+        </mat-card-content>
+    </mat-card>
+    <mat-card class="exquestion">
+        <mat-card-content>
+            <h2>3. ¿Sabes sobre la metodología SCRUM?</h2>
+            <mat-checkbox class="ex">La conozco y la he practicado</mat-checkbox>
+            <mat-checkbox class="ex">La conozco pero no la he practicado</mat-checkbox>
+            <mat-checkbox class="ex">He oído de ella</mat-checkbox>
+            <mat-checkbox class="ex">No la conozco</mat-checkbox>
+        </mat-card-content>
+    </mat-card>
+    <div class="final">
+        <button routerLink="/results">Calculate Answers</button>
+        <button routerLink="/results">See results</button>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+mat-toolbar{
+    display: flex;
+    gap: 35%;
+    justify-content: center;
+    background-color: #0288D1;
+    width: 100%;
+    height: 12%;
+}
+mat-toolbar button{
+    margin-top: 1.125rem;
+}
+.toolicon{
+    color:  #ffffff;
+}
+h1{
+    font-weight: 700; 
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1.15rem;
+    font-family: 'Open-Sans';
+    color: white;
+}
+.ex {
+    margin: 0 10px;
+    font-family: 'Roboto';
+}
+.questions{
+    width: 77%;
+    margin-top: 5%;
+    margin-left: 20.5%;
+    align-items: center;
+}
+.exquestion{
+    width: 75%;
+    background-color: #757575;
+    margin-bottom: 5.25%;
+}
+.exquestion h2{
+    font-family: 'Roboto';
+    font-size: 1.250rem;
+    line-height: 1.55rem;
+}
+.final{
+    margin-bottom: 3.5%;
+    margin-left: 20.35%;
+    display: flex;
+    gap: 6.5%;
+}
+.final button{
+    font-family: 'Roboto';
+    font-size: 1.250rem;
+    line-height: 1.55rem;
+    width: 9.35rem;
+    background-color: #03A9F4;
+    color: white;
+    border-radius: 5rem;
+}

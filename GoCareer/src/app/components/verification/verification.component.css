@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.verif{
+    align-items: center;
+    border: 1.25px #212121;
+    background-color: #03A9F4;
+    align-items: center;
+    border-radius: 3rem;
+    width: 31%;
+    margin-left: 23.75rem;
+}
+.verif mat-form-fied{
+    width: 18.5%;
+    display: flex;
+    gap: 2%;
+    margin-left: 2.5rem;
+}
+.verif h2{
+    font-size: 1.75rem;
+    line-height: 1.90rem;
+    margin-left: 4.65rem;
+    margin-top: 20%;
+}
+.verif a{
+    color: red;
+    font-size: 1.10rem;
+    line-height: 1.15rem;
+    margin-left: 4.75rem;
+}
+.verif button{
+    background-color: #03A9F4;
+    color: white;
+    border-radius: 5rem;
+    align-items: center;
+    font-size: 1.25rem;
+    line-height: 1.45rem;
+    margin-left: 10.65rem;
+    margin-top: 10%;
+    margin-bottom: 16%;
+}

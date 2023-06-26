@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+mat-toolbar{
+    display: flex;
+    gap: 35%;
+    justify-content: center;
+    background-color: #0288D1;
+    width: 100%;
+    height: 12%;
+}
+mat-toolbar button{
+    margin-top: 1.125rem;
+}
+.toolicon{
+    color:  #ffffff;
+}
+h1{
+    font-weight: 700; 
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1.15rem;
+    font-family: 'Open-Sans';
+    color: white;
+}
+.userdata{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25rem;
+}
+.username{
+    color: #212121;
+    font-size: 3.05rem;
+}
+.datacard{
+    width: 53.50%;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.datacard h2{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.45rem;
+    line-height: 1.50rem;
+}
+.datacard p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.35rem;
+    line-height: 1.40rem;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+.datacard button{
+    background-color: #52D7CA;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.45rem;
+    line-height: 1.50rem;
+    width: 10.5rem;
+    height: 3.25rem;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    border-radius: 25%;
+}

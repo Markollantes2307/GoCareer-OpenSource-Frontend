@@ -1,0 +1,37 @@
+<mat-toolbar>
+    <button mat-icon-button routerLink="/options">
+        <mat-icon class="toolicon">menu</mat-icon>
+    </button>
+    <a href="/home">
+        <h1>
+            <span>GO-CAREER</span>
+        </h1>
+    </a>
+    <button mat-icon-button routerLink="/user">
+        <mat-icon class="toolicon">person</mat-icon>
+    </button>
+</mat-toolbar>
+<div class="body">
+    <h2>Busca el servicio que necesitas</h2>
+    <div class="search">
+        <mat-form-field>
+            <mat-label><span>Look what you need here</span></mat-label>
+        </mat-form-field>
+        <input matInput>
+        <button mat-icon-button>
+            <mat-icon>search</mat-icon>
+        </button>
+    </div>
+</div>
+<div class="contacts">
+    <mat-card class="info">
+        <mat-card-content>
+            <p>Consigue asesoría con Fidel Roberto Goméz. Psicologo de primer nivel
+                y asociado de la aplicación</p>
+            <a routerLink="/specialist">Click to contact</a>
+            <div class="psi">
+                <img src="\GoCarrer\src\assets\shared\Contact.png" alt="">
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
